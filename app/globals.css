@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FDFAF6;
+  --foreground: #1C1712;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .font-fraunces {
+    font-family: "Fraunces", Georgia, serif;
+  }
+  .font-jakarta {
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  }
+}
